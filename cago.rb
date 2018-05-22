@@ -7,7 +7,7 @@ class Cago < Formula
   homepage 'https://github.com/electric-it/cagophilist'
   version '2.3.0'
   url 'https://github.com/electric-it/cagophilist/releases/download/v2.3.0/cago-darwin-amd64-v2.3.0.tar.gz'
-  sha256 "0fc9e3b411fb20c15d1145e4f2d28026a5f7c4cd589c21cc5a5d5ffc8160c9cc"
+  sha256 "8f887611f3c1e4988685e0610f2a4b83522d24cc77943f4816e7886bf0f53ef2"
 
   def install
     bin.install "cago"
