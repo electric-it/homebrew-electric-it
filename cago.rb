@@ -11,7 +11,7 @@ class Cago < Formula
 
   def install
     bin.install "cago"
-    bin.install "cago_wrapper.sh"
+    bin.install "cago.sh"
   end
 
   test do
