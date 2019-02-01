@@ -14,7 +14,7 @@ class Cago < Formula
   homepage 'https://gitlab.com/electric-it/cago'
   version '2.4.0'
   url 'https://gitlab.com/electric-it/cago/-/jobs/155021975/artifacts/file/release/cago-darwin-amd64-v2.4.0.tar.gz'
-  sha256 "9a9f821908ea7938209934326bc8d6db8cdc81ac8307371f4d85f3ad729278f5"
+  sha256 "898a166bcc944f2acfe287f52eb0868ef8c784f7e3787e8f345c28248811d902"
 
   def install
     bin.install "cago"
