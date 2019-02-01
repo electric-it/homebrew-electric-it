@@ -11,14 +11,14 @@
 
 class Cago < Formula
   desc 'Cago - A manager of AWS profiles'
-  homepage 'https://github.com/electric-it/cagophilist'
-  version '2.3.3'
-  url 'https://github.com/electric-it/cagophilist/releases/download/v2.3.3/cago-darwin-amd64-v2.3.3.tar.gz'
-  sha256 "cc833df243a43c90aa0bc7b1993e3e2573bf5ff5d6266e2dcd303357890904ab"
+  homepage 'https://gitlab.com/electric-it/cago'
+  version '2.4.0'
+  url 'https://gitlab.com/electric-it/cago/-/jobs/155021975/artifacts/file/release/cago-darwin-amd64-v2.4.0.tar.gz'
+  sha256 "9a9f821908ea7938209934326bc8d6db8cdc81ac8307371f4d85f3ad729278f5"
 
   def install
     bin.install "cago"
-    bin.install "cago.sh"
+    bin.install "cago_wrapper.sh"
   end
 
   test do
