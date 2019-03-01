@@ -13,12 +13,12 @@ class Cago < Formula
   end
 
   devel do
-    url 'https://gitlab.com/electric-it/cago/-/jobs/170262495/artifacts/raw/release/cago-darwin-amd64-v2.4.3.tar.gz'
-    sha256 '9c49000f42eb4b90712604ab0cdf170901ee1b01cb1b2d2a868f2435dfc78610'
+    url 'https://gitlab.com/electric-it/cago/-/jobs/170294850/artifacts/raw/release/cago-darwin-amd64-v2.4.4.tar.gz'
+    sha256 'b1675d52378967182305aa00559197a179e259076c17af5c31efe57a8bfb7bdd'
   end
 
   def install
-    bin.install "cago"
-    bin.install "cago.sh"
+    bin.install 'cago'
+    bin.install 'cago.sh'
   end
 end
