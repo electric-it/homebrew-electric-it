@@ -19,6 +19,11 @@ class Cago < Formula
 
   def install
     bin.install "cago"
-    bin.install "cago.sh"
+
+    if build.devel?
+      bin.install "cago_wrapper.sh"
+    else
+      bin.install "cago.sh"
+    end
   end
 end
